@@ -11,7 +11,7 @@ def Calories1():
                 continue
             current = current + int(line)
 
-    print(highest)
+    print("Most calories carreid by elf: ",highest)
 
 def Calories2():
     current = 0
@@ -31,7 +31,7 @@ def Calories2():
     for i in top:
         total += i
 
-    print(total)
+    print("Total calories carried by top 3 elfs: ",total)
 
 Calories1()
 Calories2()
