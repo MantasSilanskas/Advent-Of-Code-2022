@@ -20,3 +20,9 @@ def SplitStringInHalf(string):
     s2 = string[len(string)//2:]
 
     return s1, s2
+
+
+def FindSharedSymbol(string, string2):
+    for symbol in string:
+        if symbol in string2:
+            return symbol
