@@ -4,4 +4,4 @@ Want to expand my knowdlege of programming languages so choose to Python as tool
 
 # Python Version
 
-Using Python v.3.10
+v.3.10
