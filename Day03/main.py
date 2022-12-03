@@ -81,14 +81,14 @@ def BadgesProblem(lines):
 
 
 sum = 0
-with open("input_day3.txt") as file:
+with open("input.txt") as file:
     for line in file:
         sum += PrioritiesSum(line)
 
 print("Total priority of duplicate items in task 1:", sum)
 
 sum2 = 0
-with open("input_day3.txt") as file:
+with open("input.txt") as file:
     lines = []
     for line in file:
         lines.append(line)

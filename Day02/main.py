@@ -1,5 +1,5 @@
 # Opponent plays:
-# A for rock 
+# A for rock
 # B for paper
 # C for scissors
 
@@ -13,7 +13,7 @@
 # 2 for paper
 # 3 for scissors
 # + 0 for losing, 3 for draw and 6 for win
-      
+
 # W - win, D - draft, L - lose
 def RockPaperScissors1(e, y):
     outcome = ""
@@ -26,7 +26,7 @@ def RockPaperScissors1(e, y):
         score += 2
     elif y == "Z":
         score += 3
-    
+
     if joint == "AX":
         outcome = "D"
     elif joint == "AY":
@@ -52,8 +52,9 @@ def RockPaperScissors1(e, y):
         score += 0
     elif outcome == "D":
         score += 3
-    
+
     return score
+
 
 def RockPaperScissors2(e, y):
     joint = e + y
@@ -62,7 +63,7 @@ def RockPaperScissors2(e, y):
     if joint == "AX":
         score = 3
         return score
-    
+
     if joint == "AY":
         score = 4
         return score
@@ -75,20 +76,20 @@ def RockPaperScissors2(e, y):
     if joint == "BX":
         score = 1
         return score
-    
+
     if joint == "BY":
         score = 5
         return score
 
     if joint == "BZ":
-        score =  9
+        score = 9
         return score
 
     # # (C scissors) X(lose) = 0, Y(draw) = 3, Z(win) = 6. Rock + 1, Paper + 2, Scissors + 3
     if joint == "CX":
         score = 2
-        return score 
-    
+        return score
+
     if joint == "CY":
         score = 6
         return score
@@ -97,12 +98,13 @@ def RockPaperScissors2(e, y):
         score = 7
         return score
 
+
 totalScore1 = 0
 totalScore2 = 0
-with open("input_day2.txt") as file:
+with open("input.txt") as file:
     for line in file:
-       totalScore1 += RockPaperScissors1(line[0], line[2])
-       totalScore2 += RockPaperScissors2(line[0], line[2])
+        totalScore1 += RockPaperScissors1(line[0], line[2])
+        totalScore2 += RockPaperScissors2(line[0], line[2])
 
-    print("Part one:" ,totalScore1)
-    print("Part two:" ,totalScore2)
+    print("Part one:", totalScore1)
+    print("Part two:", totalScore2)

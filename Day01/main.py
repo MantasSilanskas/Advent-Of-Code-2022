@@ -2,7 +2,7 @@ def Calories1():
     highest = 0
     current = 0
 
-    with open("input_day1.txt") as file:
+    with open("input.txt") as file:
         for line in file:
             if line == "\n":
                 if current > highest:
@@ -11,14 +11,15 @@ def Calories1():
                 continue
             current = current + int(line)
 
-    print("Most calories carreid by elf: ",highest)
+    print("Most calories carreid by elf: ", highest)
+
 
 def Calories2():
     current = 0
     total = 0
     calories = []
 
-    with open("input_day1.txt") as file:
+    with open("input.txt") as file:
         for line in file:
             if line == "\n":
                 calories.append(current)
@@ -26,12 +27,13 @@ def Calories2():
                 continue
             current = current + int(line)
 
-    top = sorted(calories,reverse=True)[:3]
+    top = sorted(calories, reverse=True)[:3]
 
     for i in top:
         total += i
 
-    print("Total calories carried by top 3 elfs: ",total)
+    print("Total calories carried by top 3 elfs: ", total)
+
 
 Calories1()
 Calories2()
