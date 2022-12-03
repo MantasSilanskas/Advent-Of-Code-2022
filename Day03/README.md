@@ -19,9 +19,9 @@ For example, suppose you have the following list of contents from six rucksacks:
 | ttgJtRGJQctTZtZT | 
 | CrZsJsPPZsGzwwsLwLmpwMDw |
 
-1. The first rucksack contains the items vJrwpWtwJgWrhcsFMMfFFhFp, which means its first compartment contains the items vJrwpWtwJgWr, while the second compartment contains the items hcsFMMfFFhFp. The only item type that appears in both compartments is lowercase p.
-2. The second rucksack's compartments contain jqHRNqRjqzjGDLGL and rsFMfFZSrLrFZsSL. The only item type that appears in both compartments is uppercase L.
-3. The third rucksack's compartments contain PmmdzqPrV and vPwwTWBwg; the only common item type is uppercase P.
+1. The first rucksack contains the items **vJrwpWtwJgWrhcsFMMfFFhFp**, which means its first compartment contains the items **vJrwpWtwJgWr**, while the second compartment contains the items **hcsFMMfFFhFp**. The only item type that appears in both compartments is lowercase p.
+2. The second rucksack's compartments contain **jqHRNqRjqzjGDLGL** and **rsFMfFZSrLrFZsSL**. The only item type that appears in both compartments is uppercase L.
+3. The third rucksack's compartments contain **PmmdzqPrV** and **vPwwTWBwg**; the only common item type is uppercase P.
 4. The fourth rucksack's compartments only share item type v.
 5. The fifth rucksack's compartments only share item type t.
 6. The sixth rucksack's compartments only share item type s.
