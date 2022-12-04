@@ -19,7 +19,7 @@ Quite easy too but got stuck in the second part while counting points for each r
 [Day 02 repo](https://github.com/MantasSilanskas/Advent-Of-Code-2022/blob/master/Day02)
 
 # [Day 03](https://github.com/MantasSilanskas/Advent-Of-Code-2022/blob/master/Day03/main.py)
-Quite easy as well but I'm not liking my solution too many stacked for cycles probably will get back to it later on.
+Quite easy as well but I'm not liking my solution too many stacked for cycles.
 
 [Day 03 repo](https://github.com/MantasSilanskas/Advent-Of-Code-2022/blob/master/Day03)
 
