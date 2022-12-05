@@ -27,3 +27,10 @@ Quite easy as well but I'm not liking my solution too many stacked for cycles.
 Finally, it catches up to me. Not stripping input of whitespaces etc. After stripping inputs of the whitespaces program returned the correct answer. The second part was interesting because I learned how to create a set of a given range and how **&** work comparing two sets. 
 
 [Day 04 repo](https://github.com/MantasSilanskas/Advent-Of-Code-2022/tree/master/Day04)
+
+# [Day 05](https://github.com/MantasSilanskas/Advent-Of-Code-2022/blob/master/Day05/main.py)
+
+Didn't know how to read data correctly from the input file so hardcoded box arrangements inside the code. Of course, this decision caused a problem as I wrote them in reverse order. After removing box arrangments from the input it was much easier to read the input and use it.
+This day can be rewritten much more efficiently using pop() instead of del() etc.
+
+[Day 05 repo](https://github.com/MantasSilanskas/Advent-Of-Code-2022/tree/master/Day05)
