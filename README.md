@@ -34,3 +34,9 @@ Didn't know how to read data correctly from the input file so hardcoded box arra
 This day can be rewritten much more efficiently using pop() instead of del() etc.
 
 [Day 05 repo](https://github.com/MantasSilanskas/Advent-Of-Code-2022/tree/master/Day05)
+
+# [Day 06](https://github.com/MantasSilanskas/Advent-Of-Code-2022/blob/master/Day06/main.py)
+
+Quite easy day using set but interesting task non the less learned more about python sets today!
+
+[Day 06 repo](https://github.com/MantasSilanskas/Advent-Of-Code-2022/tree/master/Day06)
