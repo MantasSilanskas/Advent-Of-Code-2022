@@ -43,6 +43,6 @@ Quite easy day using set but interesting task non the less learned more about py
 
 # [Day 07](https://github.com/MantasSilanskas/Advent-Of-Code-2022/blob/master/Day07/main.py)
 
-Today I learned about Dictonaries in python. Whole task was quite interesting at first input was scary but in the end it was quite easy to parse it. Made another logic mistake in part 2 when looking for min() value declared my answer variable as 0 which was min() value.
+Today I learned about Dictionaries in python. The whole task was quite interesting at first input was scary but in the end, it was quite easy to parse it. Made another logic mistake in part 2 when looking for the min() value and declared my answer variable as 0 which was the min() value.
 
 [Day 07 repo](https://github.com/MantasSilanskas/Advent-Of-Code-2022/tree/master/Day07)
