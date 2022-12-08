@@ -51,4 +51,4 @@ Today I learned about Dictionaries in python. The whole task was quite interesti
 
 Interesting task again. Learned about all() today and improved my knowledge of the python list. Would like to research if there is a way to don't use 4 for cycle one for each direction.
 
-[Day 07 repo](https://github.com/MantasSilanskas/Advent-Of-Code-2022/tree/master/Day08)
+[Day 08 repo](https://github.com/MantasSilanskas/Advent-Of-Code-2022/tree/master/Day08)
