@@ -46,3 +46,9 @@ Quite easy day using set but interesting task non the less learned more about py
 Today I learned about Dictionaries in python. The whole task was quite interesting at first input was scary but in the end, it was quite easy to parse it. Made another logic mistake in part 2 when looking for the min() value and declared my answer variable as 0 which was the min() value.
 
 [Day 07 repo](https://github.com/MantasSilanskas/Advent-Of-Code-2022/tree/master/Day07)
+
+# [Day 08](https://github.com/MantasSilanskas/Advent-Of-Code-2022/blob/master/Day08/main.py)
+
+Interesting task again. Learned about all() today and improved my knowledge of the python list. Would like to research if there is a way to don't use 4 for cycle one for each direction.
+
+[Day 08 repo](https://github.com/MantasSilanskas/Advent-Of-Code-2022/tree/master/Day08)
