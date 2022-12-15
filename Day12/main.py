@@ -17,13 +17,13 @@ for l in range(len(area)):
         else:
            FixedArea[l][s] = ord(area[l][s]) - ord('a') + 1
 
-def FewestSteps():
+def FewestSteps(part):
     DQ = deque()
     S = set()
 
     for l in range(len(area)):
         for s in range(len(area[0])):
-            if area[l][s] == 'S':
+            if (part == 1 and area[l][s] == 'S') or (part == 2 and FixedArea[l][s] == 1):
                 DQ.append(((l,s),0))
 
     while DQ:
@@ -43,4 +43,5 @@ def FewestSteps():
             if 0 <= ll < len(area) and 0 <= ss < len(area[0]) and FixedArea[ll][ss] <= 1 + FixedArea[l][s]:
                 DQ.append(((ll, ss), count + 1))
             
-print(FewestSteps())
+print("Fewest step to reach best signal (part 1): ", FewestSteps(1))
+print("Best hiking trail with fewest steps (part 2): ", FewestSteps(2))
