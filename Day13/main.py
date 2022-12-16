@@ -46,8 +46,8 @@ def Part1():
         packets.append(pair1)
         packets.append(pair2)
 
-        if ComparePairs(pair1, pair2)==-1:
-            answer1 += 1+i
+        if ComparePairs(pair1, pair2) == -1:
+            answer1 += 1 + i
 
     print("Sum of indixes in pairs: ", answer1)
 
